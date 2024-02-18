@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+header{
+    
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo h1{
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 90px;
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-size: 15px;
+    transition: blue 0.3s ease;
+    font-size: 17px;
+
+}
+
+span{
+    color: green;
+}
+
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.text-container{
+    margin-left: 20px;
+}
+
+
+
+button{
+    margin-right: 10px;
+}
+
+.spe{
+    font-size: 66px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    text-indent: 0.9em; 
+    color: green;
+    
+}
+
+img{
+    max-width: 42%;
+    margin-left: 110px;
+}
+
+.con{
+    margin-top: 20px;
+    margin-right: 80px;
+
+}
+
+.dif{
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-top: 4px;
+    text-align: center;
+    letter-spacing: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.b1{
+    width: 120px;
+    height: 40px; 
+   
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.b2{
+    border: 2px solid green;
+    color: green;
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.b2:hover{
+    background-color: green;
+    color: white;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.secimg{
+    width: 40%;
+    margin: 30px;
+    padding: 10px;
+}
+
+
+h2{
+    font-size: 50px;
+    width: 590px;
+    color: green;
+
+    
+}
+
+
+.sp{
+    font-size: 18px;
+    font-weight: 500;
+    width: 550px;
+    
+}
+
+.tp{
+    font-size: 18px;
+    font-weight: 500;
+    width: 550px;
+    text-indent: 1em;
+    letter-spacing: 1;
+    
+}
+
+.text-container2{
+    margin-right: 120px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+
+    
+}
+
+.bcon{
+    margin-top: 20px;
+    margin-right: 90px;
+}
+
+
+.crist{
+    margin-top: 50px;
+}
+
+
+.container{
+    margin-top: 15px;
+}
+
+.bcon{
+    margin-top: 40px;
+}
+
+
+
+.ser{
+    font-size: 60px;
+    text-align: center;
+    color: green;
+    
+}
+
+
+.set{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.box-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.box1{
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(4, 71, 4);
+    border-radius: 20px;
+}
+
+h3{
+    color: green;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+
+.check{
+    max-width: 30%;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+.leaf{
+    max-width: 30%;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+.lock{
+    max-width: 30%;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.res{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.gre{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.sec{
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+
+.r1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.g1{
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.s1{
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 15px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+
+
+.box-container2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.box2{
+
+    text-align: center;
+    width: 350px;
+    height: 330px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid green;
+    border-radius: 10px 60px;
+
+}
+
+.box2 img{
+
+    
+    margin-right: 90px;
+    margin-top: 10px;
+}
+
+.dav{
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.rep{
+    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: 1;
+    width: 300px;
+    margin-left: 32px;
+}
+
+
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.container3 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    
+}
+
+
+
+
+footer ul li{
+    list-style: none;
+    font-size: 18px;
+    
+}
+
+footer{
+    margin-top: 75px;
+}
+
+
+
+.foolag{
+    font-size: 30px;
+}
+
+
+.foo{
+margin: 18px;
+font-size: 20px;
+}
+
+
+.lasgre{
+    color: green;
+}
+
+.last-stuff{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.laslas{
+    margin-left: 20px;
+}
+
+.laslas:hover{
+    background-color: green;
+    cursor: pointer;
+    color: #fff;
+}
+
+.copyright{
+    text-align: center;
+    padding-left: 120px;
+    margin-left: 120px;
+}
+
+header,footer{
+    position: sticky;
+}
